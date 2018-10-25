@@ -7,6 +7,7 @@
 - Compatible with [Verge wallet](https://vergecurrency.com/wallets/) RPC API
 - Send RAW method calls with optional RpcException on error
 - Send strongly-typed calls with custom RpcExceptions on error (not complete yet)
+- targets netstandard2.0 (compatible with dotnet core, mono, Unity, asp.net, etc)
 
 ## Status
 
