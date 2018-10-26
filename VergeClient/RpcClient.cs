@@ -11,7 +11,7 @@ using VergeClient.Models;
 
 namespace VergeClient
 {
-    public class RpcClient
+    public class RpcClient : IRpcClient
     {
         private HttpClient _http;
         public RpcClient(string url, int port, string username, string password)

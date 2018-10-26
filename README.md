@@ -11,7 +11,7 @@
 
 ## Status
 
-The project is currently in an early stage. See the [Methods.cs](VergeClient/Methods.cs) file for the current status of supported strongly-typed method calls.
+The project is currently in an early stage. See the [IRpcClient.cs](VergeClient/IRpcClient.cs) file for the current status of supported strongly-typed method calls.
 
 ## License
 
