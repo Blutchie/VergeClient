@@ -18,4 +18,5 @@ The project is currently in an early stage. See the [IRpcClient.cs](VergeClient/
 See [LICENSE](LICENSE).
 
 Donate XVG: DDqvL9HEL5xuqMF9mpsBVnx5aYGM6mGsvp
+
 ![Donate](donate.png)
