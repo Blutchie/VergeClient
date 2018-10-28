@@ -160,5 +160,13 @@ namespace VergeClient
 
             return res.result;
         }
+
+        public async Task<AddressValidation> ValidateAddress(string address)
+        {
+            RpcRequest req = new RpcRequest(Methods.ValidateAddress, new List<object>() { address });
+            RpcResponse res = await SendRequestAsync(req);
+
+            return JsonConvert.DeserializeObject<AddressValidation>(res.result);
+        }
     }
 }

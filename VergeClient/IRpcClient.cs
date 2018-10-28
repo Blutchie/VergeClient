@@ -22,7 +22,7 @@ namespace VergeClient
         Task<List<AccountBalance>> ListAccounts(int minconf = 1);
         Task<string> GetNewStealthAddress(string label = null);
         Task<string> GetNewAddress(string account = null);
-
+        Task<AddressValidation> ValidateAddress(string address);
 
 
         // Below the output of the help command (after implementing, the method will be removed from the comments)
@@ -98,7 +98,7 @@ namespace VergeClient
         //smsgsendanon<addrTo> <message>
         //stop<detach>
         //submitblock <hex data> [optional-params-obj]
-        //validateaddress <VERGEaddress>
+
         //validatepubkey <VERGEpubkey>
         //verifymessage<VERGEaddress> <signature> <message>
 

@@ -19,6 +19,7 @@ namespace VergeClient
         public static readonly string ListAccounts = "listaccounts";
         public static readonly string GetNewStealthAddress = "getnewstealthaddress";
         public static readonly string GetNewAddress = "getnewaddress";
+        public static readonly string ValidateAddress = "validateaddress";
     }
 }
 
